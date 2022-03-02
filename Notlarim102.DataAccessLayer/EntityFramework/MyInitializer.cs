@@ -15,18 +15,18 @@ namespace Notlarim102.DataAccessLayer.EntityFramework
             //Adding admin user...
             NotlarimUser admin = new NotlarimUser()
             {
-                Name = "Onur",
-                Surname = "Agici",
+                Name = "özge",
+                Surname = "katman",
                 Email = "9731013@gmail.com",
                 ActivateGuid = Guid.NewGuid(),
                 IsActive = true,
                 IsAdmin = true,
-                Username = "onuragici",
+                Username = "ozge",
                 Password = "123456",
                 ProfileImageFilename = "User1.png",
                 CreatedOn = DateTime.Now,
                 ModifiedOn = DateTime.Now,
-                ModifiedUsername = "onuragici"
+                ModifiedUsername = "ozge"
             };
             //Adding standart user
 
